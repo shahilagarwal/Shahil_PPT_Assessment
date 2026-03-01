@@ -1,0 +1,11 @@
+Commands:-
+sudo apt update
+sudo apt install nginx -y
+wget -O app.zip https://www.tooplate.com/download/2150_living_parallx
+ls
+sudo apt install unzip -y
+unzip app.zip
+ls
+sudo cp -r 2150_living_parallax/* /var/www/html
+cd /var/www/html
+ls
